@@ -1,0 +1,25 @@
+{
+  "name": "bitcointalk-signature-checker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlockFood/bitcointalk-signature-checker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BlockFood/bitcointalk-signature-checker/issues"
+  },
+  "homepage": "https://github.com/BlockFood/bitcointalk-signature-checker#readme",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "cheerio": "^1.0.0-rc.2",
+    "fs-extra-promise": "^1.0.1",
+    "google-spreadsheet": "^2.0.4"
+  }
+}
